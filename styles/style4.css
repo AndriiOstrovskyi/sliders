@@ -1,0 +1,44 @@
+/* sloider four */
+
+.four {
+    margin-top: 270px;
+}
+
+.carousel__container {
+    width: 54%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel__slide {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.carousel__slide {
+    width: 900px;
+}
+
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}

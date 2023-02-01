@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/owlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist/owlCarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style1.css">
+    <link rel="stylesheet" href="./styles/style2.css">
+    <link rel="stylesheet" href="./styles/style3.css">
+    <link rel="stylesheet" href="./styles/style4.css">
+    <link rel="stylesheet" href="./styles/style5.css">
+    <link rel="stylesheet" href="./styles/style6.css">
+    <link rel="stylesheet" href="./styles/style7.css">
+
+    <title>sliders</title>
+</head>
+<body>
+    <div class="slider one">
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./image/1.png" alt="" style="width:100%">
+            <div class="text">One</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./image/2.png" alt="" style="width:100%">
+            <div class="text">Two</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./image/3.png" alt="" style="width:100%">
+            <div class="text">Three</div>
+            </div>
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div><!-- ./slider one -->
+
+    <div class="slider two">
+        <div class="container__two">
+            <div class="sliders">
+                <div class="slider__container">
+                    <div class="slide">IMAGE #1</div>
+                    <div class="slide">IMAGE #2</div>
+                    <div class="slide">IMAGE #3</div>
+                    <div class="slide">IMAGE #4</div>
+                    <div class="slide">IMAGE #5</div>
+                    <div class="slide">IMAGE #6</div>
+                    <div class="slide">IMAGE #7</div>
+                    <div class="slide">IMAGE #8</div>
+                    <div class="slide">IMAGE #9</div>
+                </div>
+                <button class="slider__navigation action-prev" data-dir="prev">previous</button>
+                <button  class="slider__navigation action-next" data-dir="next">next</button>
+            </div>
+        </div>
+    </div><!-- ./slider two -->
+
+    <div class="slider three">
+        <div class="sliderThree">
+            <div class="sliderThree__inner">
+                <div class="slideThree__img">
+                    <i class="fas fa-futbol"></i>
+                </div>
+                <div class="slideThree__img">
+                    <i class="fas fa-football-ball"></i>
+                </div>
+                <div class="slideThree__img">
+                    <i class="fas fa-golf-ball"></i>
+                </div>
+                <div class="slideThree__img">
+                    <i class="fas fa-biking"></i>
+                </div>
+                <div class="slideThree__img">
+                    <i class="fas fa-baseball-ball"></i>
+                </div>
+                <div class="slideThree__img">
+                    <i class="fas fa-hockey-puck"></i>
+                </div>
+                <div class="slideThree__img">
+                    <i class="fas fa-swimmer"></i>
+                </div>
+            </div>
+        </div>
+    </div><!-- ./slider three -->
+
+    <div class="slider four">
+        <div class="carousel__container">
+            <i class="fas fa-arrow-left" id="prevBtn"></i>
+            <i class="fas fa-arrow-right" id="nextBtn"></i>
+            
+            <div class="carousel__slide">
+                <img id="lastClone" src="./image/4.png" alt="">
+                <img src="./image/1.png" alt="">
+                <img src="./image/2.png" alt="">
+                <img src="./image/3.png" alt="">
+                <img src="./image/4.png" alt="">
+                <img id="firstClone" src="./image/1.png" alt="">
+            </div>
+        </div>
+    </div><!-- ./slider four -->
+
+    <div class="slider five">
+        <div class="sliderFive">
+            <div class="slidesFive">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slideFive first-sl">
+                    <img src="./image/1.png" alt="">
+                </div>
+                <div class="slideFive">
+                    <img src="./image/2.png" alt="">
+                </div>
+                <div class="slideFive">
+                    <img src="./image/3.png" alt="">
+                </div>
+                <div class="slideFive">
+                    <img src="./image/4.png" alt="">
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div><!-- ./navigation-auto -->
+            </div><!-- ./slidesFive -->
+
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div><!-- ./navigation-manual -->
+        </div><!-- ./sliderFive -->
+    </div><!-- ./slider five -->
+
+    <div class="slider six">
+        <div id="splide" class="splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide"><img src="./image/1.png" alt=""></li>
+                <li class="splide__slide"><img src="./image/2.png" alt=""></li>
+                <li class="splide__slide"><img src="./image/3.png" alt=""></li>
+                <li class="splide__slide"><img src="./image/4.png" alt=""></li>
+              </ul>
+            </div>
+          </div>
+    </div><!-- ./slider six -->
+
+    <div class="slider seven">
+        <section id="main-carousel" class="splide" aria-label="My Awesome Gallery">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="./image/1.png" alt="">
+                </li>
+                <li class="splide__slide">
+                  <img src="./image/2.png" alt="">
+                </li>
+                <li class="splide__slide">
+                  <img src="./image/3.png" alt="">
+                </li>
+                <li class="splide__slide">
+                  <img src="./image/4.png" alt="">
+                </li>
+              </ul>
+            </div>
+          </section>
+          
+          <ul id="thumbnails" class="thumbnails">
+            <li class="thumbnail">
+              <img src="./image/1.png" alt="">
+            </li>
+            <li class="thumbnail">
+              <img src="./image/2.png" alt="">
+            </li>
+            <li class="thumbnail">
+              <img src="./image/3.png" alt="">
+            </li>
+            <li class="thumbnail">
+              <img src="./image/4.png" alt="">
+            </li>
+          </ul>
+    </div><!-- ./slider seven -->
+
+    <div class="slider eight">
+        <div class="owl-carousel">
+            <div><img src="./image/1.png" alt=""></div>
+            <div><img src="./image/2.png" alt=""></div>
+            <div><img src="./image/3.png" alt=""></div>
+            <div><img src="./image/4.png" alt=""></div>
+          </div>
+    </div><!-- ./slider eight -->
+
+    <div class="slider nine">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="./image/1.png" alt=""></div>
+            <div class="item"><img src="./image/2.png" alt=""></div>
+            <div class="item"><img src="./image/3.png" alt=""></div>
+            <div class="item"><img src="./image/4.png" alt=""></div>
+            <div class="item"><img src="./image/1.png" alt=""></div>
+            <div class="item"><img src="./image/2.png" alt=""></div>
+            <div class="item"><img src="./image/3.png" alt=""></div>
+            <div class="item"><img src="./image/4.png" alt=""></div>
+        </div>
+    </div><!-- ./slider nine -->
+
+    <div class="slider ten">
+        <div class="owl-carousel owl-theme">
+            <div class="item" data-merge="1"><img src="./image/1.png" alt=""></div>
+            <div class="item" data-merge="2"><img src="./image/2.png" alt=""></div>
+            <div class="item" data-merge="1"><img src="./image/3.png" alt=""></div>
+            <div class="item" data-merge="3"><img src="./image/4.png" alt=""></div>
+            <div class="item" data-merge="6"><img src="./image/1.png" alt=""></div>
+            <div class="item" data-merge="2"><img src="./image/2.png" alt=""></div>
+            <div class="item" data-merge="1"><img src="./image/3.png" alt=""></div>
+            <div class="item" data-merge="3"><img src="./image/4.png" alt=""></div>
+            <div class="item"><img src="./image/1.png" alt=""></div>
+            <div class="item"><img src="./image/2.png" alt=""></div>
+            <div class="item" data-merge="2"><img src="./image/4.png" alt=""></div>
+            <div class="item"><img src="./image/3.png" alt=""></div>
+            <div class="item"><img src="./image/4.png" alt=""></div>
+            <div class="item"><img src="./image/1.png" alt=""></div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- splide -->
+    <script src="dist/js/splide.min.js"></script>
+
+    <!-- owlCarousel -->
+    <script src="dist/owlCarousel/owl.carousel.min.js"></script>
+
+    <!-- my scripts -->
+    <script src="./js/script1.js"></script>
+    <script src="./js/script2.js"></script>
+    <script src="./js/script3.js"></script>
+    <script src="./js/script4.js"></script>
+    <script src="./js/script5.js"></script>
+    <script src="./js/script6.js"></script>
+    <script src="./js/script7.js"></script>
+    <script src="./js/script8.js"></script>
+    <script src="./js/script9.js"></script>
+    <script src="./js/script10.js"></script>
+
+</body>
+</html>

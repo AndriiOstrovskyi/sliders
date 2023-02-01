@@ -1,0 +1,44 @@
+/* slide three */
+
+.slideThree__img i {
+    font-size: 3rem;
+    color: aliceblue;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.slideThree__img i:hover {
+    color: blueviolet;
+}
+
+.three {
+    position: relative;
+}
+
+.sliderThree {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 80%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.sliderThree__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    pointer-events: none;
+}
+
+.slideThree__img {
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 3rem;
+}
